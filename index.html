@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8faff">
+  <meta name="description" content="Philip is a WordPress developer in Cebu, Philippines. Explore his approach to website design, Elementor page layouts, and WooCommerce store support.">
+  <meta property="og:title" content="Philip | WordPress Developer">
+  <meta property="og:description" content="WordPress websites, Elementor page design, and WooCommerce store support.">
+  <meta property="og:type" content="website">
+  <title>Philip | WordPress Developer</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preload" href="assets/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Philip, home"><span class="brand-mark" aria-hidden="true">p<span>.</span></span>Philip<span class="wordmark-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu<span class="menu-lines" aria-hidden="true"></span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Work samples</a>
+        <a href="#about">About</a>
+        <a class="mobile-contact" href="#contact">Contact</a>
+      </nav>
+      <a class="button button-outline header-contact" href="#contact">Let’s talk</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi, I’m Philip</p>
+          <h1 id="hero-title">WordPress<br><em>Developer.</em></h1>
+          <p class="hero-description">I build responsive WordPress websites and help businesses keep their pages, content, and online stores up to date.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View work samples</a>
+            <a class="button button-outline" href="#contact">Get in touch</a>
+          </div>
+          <p class="availability"><span aria-hidden="true"></span>Open to full-time remote work</p>
+        </div>
+
+        <figure class="portrait-card">
+          <div class="portrait-grid" aria-hidden="true"></div>
+          <div class="portrait-orbit">
+            <img src="assets/philip-headshot.jpg" width="768" height="768" alt="Portrait of Philip in a mustard plaid shirt">
+          </div>
+          <figcaption><span class="location-pin" aria-hidden="true"></span>Lapu-Lapu, Cebu, Philippines</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="tool-strip">
+      <div class="wrap tools-inner">
+        <p>Tools I work with</p>
+        <ul aria-label="Tools I work with">
+          <li><span class="tool-icon tool-wordpress" aria-hidden="true">W</span>WordPress</li>
+          <li><span class="tool-icon tool-elementor" aria-hidden="true"><i></i></span>Elementor</li>
+          <li><span class="tool-icon tool-woo" aria-hidden="true">woo</span>WooCommerce</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="section wrap" id="services" aria-labelledby="services-title">
+      <div class="section-intro service-intro">
+        <div>
+          <h2 id="services-title">How I can help<span>.</span></h2>
+        </div>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-icon icon-window" aria-hidden="true"><i></i></span>
+          <h3>WordPress websites</h3>
+          <p>Build or update a website with clear navigation, organized content, and a layout that works on phones.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-icon icon-layout" aria-hidden="true"><i></i></span>
+          <h3>Elementor page design</h3>
+          <p>Create a landing page or refresh an existing one with clear text, images, and buttons.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-icon icon-bag" aria-hidden="true"><i></i></span>
+          <h3>WooCommerce support</h3>
+          <p>Add products and keep your store’s listings, images, and descriptions up to date.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-intro work-intro">
+          <div>
+            <h2 id="work-title">Work samples<span>.</span></h2>
+          </div>
+          <p>Browse by industry or visit any of the live websites.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter work samples" hidden>
+          <button type="button" data-filter="all" aria-pressed="true">All websites</button>
+          <button type="button" data-filter="home" aria-pressed="false">Home &amp; property</button>
+          <button type="button" data-filter="auto" aria-pressed="false">Automotive</button>
+          <button type="button" data-filter="health" aria-pressed="false">Health &amp; wellness</button>
+          <button type="button" data-filter="business" aria-pressed="false">Business services</button>
+        </div>
+        <p class="sr-only" role="status" id="filter-status"></p>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card live-project" data-category="home">
+            <div class="project-thumbnail"><img src="assets/projects/cm.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Home building</p>
+              <h3>C &amp; M Home Designs</h3>
+              <p>Custom home design and construction in the Las Vegas area.</p>
+              <a class="project-open" href="https://candmhomedesigns.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for C &amp; M Home Designs (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="auto">
+            <div class="project-thumbnail"><img src="assets/projects/purple.webp" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Automotive</p>
+              <h3>Purple Flare Wraps</h3>
+              <p>Vehicle wraps, paint protection film, and window tint.</p>
+              <a class="project-open" href="https://purpleflareagency.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Purple Flare Wraps (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="health">
+            <div class="project-thumbnail"><img src="assets/projects/miracle.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Mental health</p>
+              <h3>Miracle Minds Therapy</h3>
+              <p>Therapy, psychiatry, and community support services in Las Vegas.</p>
+              <a class="project-open" href="https://mmtnv.org/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Miracle Minds Therapy (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="home">
+            <div class="project-thumbnail"><img src="assets/projects/dryer.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Home services</p>
+              <h3>Dryer Duct Rescue</h3>
+              <p>Dryer vent cleaning and related services for Las Vegas homes.</p>
+              <a class="project-open" href="https://dryerductrescuelv.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Dryer Duct Rescue (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="auto">
+            <div class="project-thumbnail"><img src="assets/projects/polish.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Automotive</p>
+              <h3>Precision Polish Auto Detail</h3>
+              <p>Car detailing, paint protection film, ceramic coating, and window tint.</p>
+              <a class="project-open" href="https://precisionpolishautodetail.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Precision Polish Auto Detail (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="business">
+            <div class="project-thumbnail"><img src="assets/projects/kaizen.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Business services</p>
+              <h3>Kaizen Strategies</h3>
+              <p>Business licensing and government representation in Nevada.</p>
+              <a class="project-open" href="https://kaizennv.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Kaizen Strategies (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="home">
+            <div class="project-thumbnail"><img src="assets/projects/birmingham.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Real estate</p>
+              <h3>Birmingham Welcome Home</h3>
+              <p>Property search and home listings in the Birmingham area.</p>
+              <a class="project-open" href="https://www.birminghamwelcomehome.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Birmingham Welcome Home (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="home">
+            <div class="project-thumbnail"><img src="assets/projects/clark.jpg" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Interior design</p>
+              <h3>Clark Gregory Design</h3>
+              <p>Full-service interior design for homes in Southwest Florida.</p>
+              <a class="project-open" href="https://clarkgregorydesign.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Clark Gregory Design (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+
+          <article class="project-card live-project" data-category="health">
+            <div class="project-thumbnail"><img src="assets/projects/damon.webp" alt="" loading="lazy" decoding="async"></div>
+            <div class="project-info">
+              <p class="project-type">Wellness</p>
+              <h3>Damon Davis</h3>
+              <p>Books and resources on wellness and personal growth.</p>
+              <a class="project-open" href="https://damondavis.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit website for Damon Davis (opens in a new tab)">Visit website</a>
+            </div>
+          </article>
+        </div>
+        <details class="concepts">
+          <summary>Design concepts</summary>
+          <div class="project-grid concept-grid">
+          <article class="project-card" data-project="forma">
+            <div class="project-art art-forma" aria-hidden="true">
+              <div class="browser-shot shot-forma">
+                <div class="mock-nav"><b>FORMA.</b><span>Studio &nbsp;&nbsp; Projects &nbsp;&nbsp; Contact</span></div>
+                <div class="mock-body"><img src="assets/forma.webp" alt="" loading="lazy" width="1200" height="760"><div class="mock-copy"><b>Spaces for<br>real life.</b><span>Architecture and interiors</span></div></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">WordPress <span></span> Concept</p>
+              <h3>Forma Studio</h3>
+              <p>A business site for an architecture studio.</p>
+              <button class="project-open" type="button" aria-label="View Forma Studio example" hidden>View example<span aria-hidden="true" class="open-icon">+</span></button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="clay">
+            <div class="project-art art-clay" aria-hidden="true">
+              <div class="browser-shot shot-clay">
+                <div class="mock-nav"><b>clay &amp; co.</b><span>Shop &nbsp;&nbsp; Our story &nbsp;&nbsp; Bag (0)</span></div>
+                <div class="mock-body"><img src="assets/clay.webp" alt="" loading="lazy" width="1200" height="760"><div class="mock-copy"><span>Made for the table</span><b>Everyday<br>ceramics.</b></div></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">WooCommerce <span></span> Concept</p>
+              <h3>Clay &amp; Co.</h3>
+              <p>An online storefront for ceramic tableware.</p>
+              <button class="project-open" type="button" aria-label="View Clay and Co. example" hidden>View example<span aria-hidden="true" class="open-icon">+</span></button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="north">
+            <div class="project-art art-north" aria-hidden="true">
+              <div class="browser-shot shot-north">
+                <div class="mock-nav"><b>NORTHLINE</b><span>Journal &nbsp;&nbsp; Field notes</span></div>
+                <div class="mock-body"><img src="assets/north.webp" alt="" loading="lazy" width="1200" height="760"><div class="mock-copy"><span>Stories from the trail</span><b>The quiet<br>outdoors.</b></div></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">Elementor <span></span> Concept</p>
+              <h3>Northline Journal</h3>
+              <p>A landing page for an outdoor travel journal.</p>
+              <button class="project-open" type="button" aria-label="View Northline Journal example" hidden>View example<span aria-hidden="true" class="open-icon">+</span></button>
+            </div>
+          </article>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section wrap about-section" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <h2 id="about-title">About Philip<span>.</span></h2>
+        <p>I’m a WordPress developer based in Cebu, Philippines. I enjoy organizing content and making pages easy to use on any screen. I’m quick to learn new tools and comfortable working to deadlines.</p>
+        <a class="text-link" href="https://www.onlinejobs.ph/jobseekers/info/4713777" target="_blank" rel="noopener">View my OnlineJobs.ph profile</a>
+      </div>
+      <aside class="experience" aria-labelledby="experience-title">
+        <h3 id="experience-title">Experience by tool</h3>
+        <dl>
+          <div><dt>WordPress</dt><dd>2–5 years</dd></div>
+          <div><dt>Elementor</dt><dd>2–5 years</dd></div>
+          <div><dt>WooCommerce</dt><dd>2–5 years</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-panel">
+        <div class="contact-copy">
+          <h2 id="contact-title">Let’s work together.</h2>
+          <p>Tell me about your website and what you need help with.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-dark contact-method" href="mailto:philipangcos77@gmail.com">
+            <span>Email</span>
+            <strong>philipangcos77@gmail.com</strong>
+          </a>
+          <a class="button button-light-outline contact-method" href="tel:+639310153431">
+            <span>Phone</span>
+            <strong>+63 931 015 3431</strong>
+          </a>
+          <a class="contact-profile" href="https://www.onlinejobs.ph/jobseekers/info/4713777" target="_blank" rel="noopener">Contact on OnlineJobs.ph</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="wordmark" href="#top" aria-label="Philip, back to top"><span class="brand-mark" aria-hidden="true">p<span>.</span></span>Philip<span class="wordmark-dot">.</span></a>
+      <p>WordPress Developer · Cebu, Philippines</p>
+      <a class="text-link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <form method="dialog"><button class="dialog-close" type="submit" autofocus aria-label="Close concept">×</button></form>
+      <p class="eyebrow" id="dialog-type"></p>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <div class="preview-switch" role="group" aria-label="Preview size">
+        <button type="button" data-preview="desktop" aria-pressed="true">Desktop</button>
+        <button type="button" data-preview="mobile" aria-pressed="false">Mobile</button>
+      </div>
+      <div id="dialog-preview" class="dialog-preview" aria-hidden="true"></div>
+      <h3>Design details</h3>
+      <ul id="dialog-details"></ul>
+      <p class="photo-credit" id="photo-credit"></p>
+    </div>
+  </dialog>
+</body>
+</html>
